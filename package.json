@@ -2,12 +2,8 @@
   "name": "webpack-test",
   "version": "1.0.0",
   "description": "> webpack  babel react全家桶  antd UI框架",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
-  },
+  "private": true,
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pgXinXinDong/webpack.git"
@@ -19,9 +15,8 @@
   },
   "homepage": "https://github.com/pgXinXinDong/webpack#readme",
   "devDependencies": {
-    "css-loader": "^3.2.1",
-    "style-loader": "^1.0.1",
-    "webpack": "^4.41.2",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "dependencies": {}
 }
